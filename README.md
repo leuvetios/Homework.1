@@ -1,4 +1,12 @@
 # Homework.1
+
+
+
+
+
+
+
+
 Fibonacci week1 wekk2 
 a = 1
 b = 1
