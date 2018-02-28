@@ -2,7 +2,7 @@ print("hesap makinesi")
 a = int(input("birinci sayiyi giriniz"))
 b = int(input("ikinci sayiyi giriniz"))
 c = input("islemi seçiniz")
-i = 1
+
 
 if (c == "-"):
     d = a - b
