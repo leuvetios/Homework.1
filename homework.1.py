@@ -17,7 +17,7 @@ while i <= 6 :
 
 # a = 1
 # b = 1
-#  ne = "ne kadar gitsin : "
+#  ne = input ("ne kadar gitsin : ")
  # i = 2
  # while i <= ne :
  # a, b = b , a+b
