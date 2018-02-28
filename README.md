@@ -26,3 +26,33 @@ while i <= 6 :              *while döngüsünü i'den 6'a kadar döndürücez
                                            b = a_eski + b_eski)
     print(b)                 *b yi yazdırıyoruz
     i = i + 1                *sayacı bir arttırıyoruz
+------------------------------------------------------------------------------------------------------------------------
+print("hesap makinesi")                        * Kullanıcıya bilgi
+a = int(input("birinci sayiyi giriniz"))       * kullanıcıdan 2 sayı istedik
+b = int(input("ikinci sayiyi giriniz"))
+c = input("islemi seçiniz")                    * Kullanıcıdan İşlem seçmesini istedik
+                                         
+
+if (c == "-"):                                 
+    d = a - b
+    print("islem sonucu :")                    
+    print(d)
+
+
+elif (c == "+"):
+    d = a + b
+    print("islem sonucu :")
+    print(d)
+
+elif (c == "/"):
+    d = a / b
+    print(d)
+                                                                      *İf ile C değişkenine kullanıcıdan atadığımız seçimi attık
+elif (c == "*"):                                                     *Bilgi verip aldığımız 2 değişkeni uyguladık.
+    d = a * b
+    print("islem sonucu :")
+    print(d)
+elif (c == "exit"):
+    print ("çıkışınız")
+else :                                                        * else ile c değişkeni hiç bir tercih ile uyuşmuyorsa döngüden çıkıp bilgi 
+    print ("düzgün Giriniz LÜTFEN!!!!!")                           versin..
